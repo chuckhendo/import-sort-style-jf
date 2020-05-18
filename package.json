@@ -1,0 +1,24 @@
+{
+  "name": "import-sort-style-jf",
+  "version": "1.0.0",
+  "description": "Import sort style for JF",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "tsc -b .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": "chuckhendo/import-sort-style-jf",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "import-sort-style": "^6.0.0",
+    "typescript": "^3.9.2"
+  }
+}
